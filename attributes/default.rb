@@ -1,3 +1,4 @@
+#Attributes
 case platform
 when "redhat","centos","fedora","scientific"
 	default[:ntp][:service] = "ntpd"
